@@ -62,6 +62,7 @@ MonoBehaviour:
   thick: 7
   isMoused: 0
   isMousedExit: 0
+  isClicked: 0
 --- !u!212 &1936271588979694480
 SpriteRenderer:
   m_ObjectHideFlags: 0

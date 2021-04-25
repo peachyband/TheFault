@@ -63,7 +63,6 @@ public class Player : MonoBehaviour
                 objctrl.outline.SetColor("MainColor", Color.white * 0);
                 Debug.Log("blocked");
             }
-            
         }
     }
 

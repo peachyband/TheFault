@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: STDID
-  m_Shader: {fileID: -6465566751694194690, guid: 20955963009124f46b4c27b7e338ac22, type: 3}
+  m_Name: Stud_mat
+  m_Shader: {fileID: -6465566751694194690, guid: 1b4be252725201448a8e08dc432b8dd2, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 288fd872b6c617e4dafeecd676c71aa5, type: 3}
+        m_Texture: {fileID: 2800000, guid: 46e1a47eb7dc4444ca9cdc2cd794f582, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_250009925d5647d2a671f37e698eec96: 0.0076
+    - Vector1_250009925d5647d2a671f37e698eec96: 0.0238
     m_Colors:
-    - MainColor: {r: 0, g: 0, b: 0, a: 0}
+    - MainColor: {r: 39.396626, g: 39.396626, b: 39.396626, a: 0}
   m_BuildTextureStacks: []
