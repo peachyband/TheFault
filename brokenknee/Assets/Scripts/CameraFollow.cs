@@ -6,13 +6,11 @@ public class CameraFollow : MonoBehaviour
 {
     public Transform Look;
     public float CamDist;
-    // Start is called before the first frame update
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         transform.position = new Vector3(Look.position.x, Look.position.y, -CamDist);
