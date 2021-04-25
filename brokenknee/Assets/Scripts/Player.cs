@@ -47,17 +47,21 @@ public class Player : MonoBehaviour
     {
         if (other.transform.tag == "Object")
         {
-            Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Object objctrl = other.GetComponent<Object>();
             if (objctrl.isMoused)
             {
                 objctrl.outline.SetColor("MainColor", Color.white * Mathf.Lerp(0, objctrl.thick, 0.5f));
-                Debug.Log("unblocked");
+                Debug.Log("unblocked"); 
+                if (objctrl.isClicked)
+                {
+                    _uitext.text = objctrl.Description;
+                    objctrl.isClicked = false;
+                }
             }
-            
-            if (Input.GetMouseButtonDown(0))
+            else if (objctrl.isMousedExit)
             {
-                _uitext.text = objctrl.Description;
+                objctrl.outline.SetColor("MainColor", Color.white * 0);
+                Debug.Log("blocked");
             }
             
         }
