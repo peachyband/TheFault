@@ -7,11 +7,17 @@ public class Player : MonoBehaviour
     [SerializeField]
     private float speed = 10;
     public Text _uitext;
+    private Rigidbody2D rigid;
 
     [SerializeField]
     private Animator animctrl;
-    
-    void Update()
+
+    void Start()
+    {
+        rigid = this.GetComponent<Rigidbody2D>();
+    }
+
+    void FixedUpdate()
     {
         CalculateMovement();
     }
@@ -28,13 +34,15 @@ public class Player : MonoBehaviour
         else
         {
             animctrl.SetBool("Moving", true);
-            animctrl.SetFloat("Speed", speed);
+            animctrl.SetFloat("Speed", speed/20);
         }
         
         var dir = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
         var angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.AngleAxis(angle - 90, Vector3.forward);
-        transform.position += new Vector3(x, y, 0) * speed;
+        //transform.position += new Vector3(x, y, 0) * speed;
+        //rigid.AddForce(new Vector2 (x, y) * speed * Time.fixedDeltaTime, ForceMode2D.Impulse);
+        rigid.velocity = new Vector2(x, y) * speed * Time.fixedDeltaTime;
     }
 
     private void OnTriggerStay2D(Collider2D other)
