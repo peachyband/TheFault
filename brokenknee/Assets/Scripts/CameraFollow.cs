@@ -5,10 +5,10 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
     public Transform Look;
-    public float CamDist;
+    public float CamDist = 20;
     void Start()
     {
-        
+        Look = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     void Update()

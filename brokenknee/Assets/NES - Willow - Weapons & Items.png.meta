@@ -1,0 +1,804 @@
+fileFormatVersion: 2
+guid: eaebff5826ab06a45bd661e53835a0c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8101194244909314676
+    second: NES - Willow - Weapons & Items_0
+  - first:
+      213: 2354614049357290183
+    second: NES - Willow - Weapons & Items_1
+  - first:
+      213: 878695149113940688
+    second: NES - Willow - Weapons & Items_2
+  - first:
+      213: 5155181394876641263
+    second: NES - Willow - Weapons & Items_3
+  - first:
+      213: 7186848112480195501
+    second: NES - Willow - Weapons & Items_4
+  - first:
+      213: -4440916478957858009
+    second: NES - Willow - Weapons & Items_5
+  - first:
+      213: 1891009379915516836
+    second: NES - Willow - Weapons & Items_6
+  - first:
+      213: 2909768995771903062
+    second: NES - Willow - Weapons & Items_7
+  - first:
+      213: 6449424483120662956
+    second: NES - Willow - Weapons & Items_8
+  - first:
+      213: 3573079862716582653
+    second: NES - Willow - Weapons & Items_9
+  - first:
+      213: 5637880232497766443
+    second: NES - Willow - Weapons & Items_10
+  - first:
+      213: -2911434158289112264
+    second: NES - Willow - Weapons & Items_11
+  - first:
+      213: 6845520566822717134
+    second: NES - Willow - Weapons & Items_12
+  - first:
+      213: 2352382024783261657
+    second: NES - Willow - Weapons & Items_13
+  - first:
+      213: -1178654001454672851
+    second: NES - Willow - Weapons & Items_14
+  - first:
+      213: -1606953197058340009
+    second: NES - Willow - Weapons & Items_15
+  - first:
+      213: 8164212623049367210
+    second: NES - Willow - Weapons & Items_16
+  - first:
+      213: 5449679523080351972
+    second: NES - Willow - Weapons & Items_17
+  - first:
+      213: -482577347534166728
+    second: NES - Willow - Weapons & Items_18
+  - first:
+      213: 5793483881092410004
+    second: NES - Willow - Weapons & Items_19
+  - first:
+      213: 4321340720107481193
+    second: NES - Willow - Weapons & Items_20
+  - first:
+      213: 504710213395048159
+    second: NES - Willow - Weapons & Items_21
+  - first:
+      213: 8512622047360351212
+    second: NES - Willow - Weapons & Items_22
+  - first:
+      213: -5853999503276353554
+    second: NES - Willow - Weapons & Items_23
+  - first:
+      213: -4791367879665709824
+    second: NES - Willow - Weapons & Items_24
+  - first:
+      213: -6329086518401273672
+    second: NES - Willow - Weapons & Items_25
+  - first:
+      213: 5051449623372260369
+    second: NES - Willow - Weapons & Items_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NES - Willow - Weapons & Items_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 170
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47232486e393d6070800000000000000
+      internalID: 8101194244909314676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Willow - Weapons & Items_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 172
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cad51ba0054da020800000000000000
+      internalID: 2354614049357290183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Willow - Weapons & Items_2
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 175
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da9bc42590c13c00800000000000000
+      internalID: 878695149113940688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Willow - Weapons & Items_3
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 174
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef23525a22ea8740800000000000000
+      internalID: 5155181394876641263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Willow - Weapons & Items_4
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 173
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3911fd740dcb360800000000000000
+      internalID: 7186848112480195501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Willow - Weapons & Items_5
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 145
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723d98acdf1be52c0800000000000000
+      internalID: -4440916478957858009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Willow - Weapons & Items_6
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 142
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abcbc413073e3a10800000000000000
+      internalID: 1891009379915516836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Willow - Weapons & Items_7
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 141
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ced6b2c73916820800000000000000
+      internalID: 2909768995771903062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Willow - Weapons & Items_8
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 111
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca94d1a9565f08950800000000000000
+      internalID: 6449424483120662956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Willow - Weapons & Items_9
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 113
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfac2534431269130800000000000000
+      internalID: 3573079862716582653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Willow - Weapons & Items_10
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 77
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20e9306336cd3e40800000000000000
+      internalID: 5637880232497766443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Willow - Weapons & Items_11
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 79
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8333d38fe028897d0800000000000000
+      internalID: -2911434158289112264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Willow - Weapons & Items_12
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 109
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec64918bfac200f50800000000000000
+      internalID: 6845520566822717134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Willow - Weapons & Items_13
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 113
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df6833fcf655a020800000000000000
+      internalID: 2352382024783261657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Willow - Weapons & Items_14
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 80
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2493323e6494afe0800000000000000
+      internalID: -1178654001454672851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Willow - Weapons & Items_15
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 49
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bc8aec494f2b9e0800000000000000
+      internalID: -1606953197058340009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Willow - Weapons & Items_16
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 80
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae1e93ff1c1d4170800000000000000
+      internalID: 8164212623049367210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Willow - Weapons & Items_17
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 77
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0bce017a621ab40800000000000000
+      internalID: 5449679523080351972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Willow - Weapons & Items_18
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 81
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835639f857a8d49f0800000000000000
+      internalID: -482577347534166728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Willow - Weapons & Items_19
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 109
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ae67805e6966050800000000000000
+      internalID: 5793483881092410004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Willow - Weapons & Items_20
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 109
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968ef6f4d7c78fb30800000000000000
+      internalID: 4321340720107481193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Willow - Weapons & Items_21
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 140
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd66ce7d347110700800000000000000
+      internalID: 504710213395048159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Willow - Weapons & Items_22
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 144
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb721876a8e22670800000000000000
+      internalID: 8512622047360351212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Willow - Weapons & Items_23
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 144
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee756e3b77a62cea0800000000000000
+      internalID: -5853999503276353554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Willow - Weapons & Items_24
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 179
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d0f489c44a18db0800000000000000
+      internalID: -4791367879665709824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Willow - Weapons & Items_25
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 174
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b07afd28519a28a0800000000000000
+      internalID: -6329086518401273672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Willow - Weapons & Items_26
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 141
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11462e13baa5a1640800000000000000
+      internalID: 5051449623372260369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f2911edda032871459e2c896b713f831
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
