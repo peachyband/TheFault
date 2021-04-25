@@ -49,11 +49,12 @@ public class Player : MonoBehaviour
         {
             Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Object objctrl = other.GetComponent<Object>();
-            if (new Vector3(mousePosition.x, mousePosition.y, 0) == other.transform.GetComponent<BoxCollider2D>().bounds.size)
+            if (objctrl.isMoused)
             {
                 objctrl.outline.SetColor("MainColor", Color.white * Mathf.Lerp(0, objctrl.thick, 0.5f));
-                Debug.Log("blocked");
+                Debug.Log("unblocked");
             }
+            
             if (Input.GetMouseButtonDown(0))
             {
                 _uitext.text = objctrl.Description;

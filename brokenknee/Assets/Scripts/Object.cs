@@ -9,4 +9,14 @@ public class Object : MonoBehaviour
     public string Description = "";
     public Material outline;
     public float thick;
+    public bool isMoused = false;
+
+    private void OnMouseOver()
+    {
+        isMoused = true;
+    }
+    private void OnMouseExit()
+    {
+        isMoused = false;
+    }
 }
