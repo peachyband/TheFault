@@ -6,5 +6,7 @@ using UnityEngine.UI;
 public class Object : MonoBehaviour
 {
     [TextArea]
-    public string Description = "";   
+    public string Description = "";
+    public Material outline;
+    public float thick;
 }

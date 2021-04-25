@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        rigid = this.GetComponent<Rigidbody2D>();
+        rigid = GetComponent<Rigidbody2D>();
     }
 
     void FixedUpdate()
@@ -34,14 +34,12 @@ public class Player : MonoBehaviour
         else
         {
             animctrl.SetBool("Moving", true);
-            animctrl.SetFloat("Speed", speed/20);
+            animctrl.SetFloat("Speed", speed/30);
         }
         
         var dir = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
         var angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.AngleAxis(angle - 90, Vector3.forward);
-        //transform.position += new Vector3(x, y, 0) * speed;
-        //rigid.AddForce(new Vector2 (x, y) * speed * Time.fixedDeltaTime, ForceMode2D.Impulse);
         rigid.velocity = new Vector2(x, y) * speed * Time.fixedDeltaTime;
     }
 
@@ -49,14 +47,28 @@ public class Player : MonoBehaviour
     {
         if (other.transform.tag == "Object")
         {
-            _uitext.text = other.GetComponent<Object>().Description;
+            Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Object objctrl = other.GetComponent<Object>();
+            if (new Vector3(mousePosition.x, mousePosition.y, 0) == other.transform.GetComponent<BoxCollider2D>().bounds.size)
+            {
+                objctrl.outline.SetColor("MainColor", Color.white * Mathf.Lerp(0, objctrl.thick, 0.5f));
+                Debug.Log("blocked");
+            }
+            if (Input.GetMouseButtonDown(0))
+            {
+                _uitext.text = objctrl.Description;
+            }
             
         }
-        //TODO: INPUT.ACTRION
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        _uitext.text = "";
+        if (other.transform.tag == "Object")
+        {
+            Object objctrl = other.GetComponent<Object>();
+            _uitext.text = "";
+            objctrl.outline.SetColor("MainColor", Color.white * 0);
+        }
     }
 }
