@@ -24,4 +24,9 @@ public class LevelLoader : MonoBehaviour
         transition.SetTrigger("Start");
         EditorSceneManager.LoadScene(levelindx);
     }
+
+    public void LoadMainMenu()
+    {
+        EditorSceneManager.LoadScene(0);
+    }
 }

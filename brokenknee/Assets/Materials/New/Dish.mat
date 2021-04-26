@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: wallet2
+  m_Name: Dish
   m_Shader: {fileID: -6465566751694194690, guid: 1b4be252725201448a8e08dc432b8dd2, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 9a57c3fca98a5fe4f84789b83cc9fb69, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5fc946a4bb22a254caa9a5663cf99066, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_250009925d5647d2a671f37e698eec96: 0.0302
+    - Vector1_250009925d5647d2a671f37e698eec96: 0.05
     m_Colors:
-    - MainColor: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 100}
+    - MainColor: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

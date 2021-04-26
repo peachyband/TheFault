@@ -23,29 +23,7 @@ public class ExamineObj : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*cols = Physics2D.OverlapCircleAll(transform.position, radius);
-        foreach (Collider2D other in cols)
-        {
-            if (other.transform.tag == "Object")
-            {
-                Object objctrl = other.GetComponent<Object>();
-                if (objctrl.isMoused)
-                {
-                    objctrl.outline.SetColor("MainColor", Color.white * Mathf.Lerp(0, objctrl.thick, 0.5f));
-                    //Debug.Log("unblocked");
-                    if (objctrl.isClicked)
-                    {
-                        _uitext.text = objctrl.Description;
-                        objctrl.isClicked = false;
-                    }
-                }
-                else if (objctrl.isMousedExit)
-                {
-                    objctrl.outline.SetColor("MainColor", Color.white * 0);
-                    //Debug.Log("blocked");
-                }
-            }
-        }*/
+      
     }
 
     private void OnTriggerStay2D(Collider2D other)
@@ -56,7 +34,8 @@ public class ExamineObj : MonoBehaviour
             if (!objctrl.isReaded) indicator.SetActive(true);
             if (objctrl.isMoused)
             {
-                objctrl.outline.SetColor("MainColor", Color.white * Mathf.Lerp(0, objctrl.thick, 1));
+                if (objctrl.isMainObject) objctrl.outline.SetColor("MainColor", Color.red * Mathf.Lerp(0, objctrl.thick, 1));
+                else objctrl.outline.SetColor("MainColor", Color.white * Mathf.Lerp(0, objctrl.thick, 1));
                 Debug.Log("unblocked");
                 if (objctrl.isClicked)
                 {
@@ -66,8 +45,7 @@ public class ExamineObj : MonoBehaviour
                     objctrl.isClicked = false;
                     objctrl.isReaded = true;
                     if (objctrl.isMainObject) _lvlctrl.LoadNextLevel();
-                        
-       
+                    if (objctrl.isFinalObject) _lvlctrl.LoadMainMenu();
                 }
             }
             else if (objctrl.isMousedExit)
