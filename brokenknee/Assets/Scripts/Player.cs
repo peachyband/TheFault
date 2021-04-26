@@ -19,10 +19,10 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.G))
+       /* if (Input.GetKeyDown(KeyCode.G))
         {
             Time.timeScale = 0;
-        }
+        }*/
     }
 
     void FixedUpdate()
