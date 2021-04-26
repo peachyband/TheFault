@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour
 {
@@ -24,18 +24,18 @@ public class LevelLoader : MonoBehaviour
             GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         }
        
-        StartCoroutine(LoadLevel(EditorSceneManager.GetActiveScene().buildIndex + 1));
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
     }
 
     IEnumerator LoadLevel(int levelindx)
     {
         yield return new WaitForSeconds(transitionTime);
         transition.SetTrigger("Start");
-        EditorSceneManager.LoadScene(levelindx);
+        SceneManager.LoadScene(levelindx);
     }
 
     public void LoadMainMenu()
     {
-        EditorSceneManager.LoadScene(0);
+        SceneManager.LoadScene(0);
     }
 }
