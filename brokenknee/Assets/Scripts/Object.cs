@@ -12,6 +12,7 @@ public class Object : MonoBehaviour
     public bool isMoused = false;
     public bool isMousedExit = false;
     public bool isClicked = false;
+    public bool isMainObject = false;
 
     private void OnMouseOver()
     {

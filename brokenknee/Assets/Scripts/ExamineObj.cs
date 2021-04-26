@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEditor.SceneManagement;
 
 public class ExamineObj : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class ExamineObj : MonoBehaviour
     public float radius;
     public Collider2D[] cols;
 
+    public LevelLoader _lvlctrl;
     public Text _uitext;
     // Start is called before the first frame update
     void Start()
@@ -52,7 +54,7 @@ public class ExamineObj : MonoBehaviour
             Object objctrl = other.GetComponent<Object>();
             if (objctrl.isMoused)
             {
-                objctrl.outline.SetColor("MainColor", Color.white * Mathf.Lerp(0, objctrl.thick, 0.5f));
+                objctrl.outline.SetColor("MainColor", Color.white * Mathf.Lerp(0, objctrl.thick, 1));
                 Debug.Log("unblocked");
                 if (objctrl.isClicked)
                 {
@@ -60,6 +62,7 @@ public class ExamineObj : MonoBehaviour
                     _uitext.text = objctrl.Description;
                     _uitext.gameObject.SetActive(true);
                     objctrl.isClicked = false;
+                    if (objctrl.isMainObject) _lvlctrl.LoadNextLevel();
                 }
             }
             else if (objctrl.isMousedExit)
