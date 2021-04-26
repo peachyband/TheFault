@@ -57,6 +57,7 @@ public class ExamineObj : MonoBehaviour
                 if (objctrl.isClicked)
                 {
                     _uitext.text = objctrl.Description;
+                    _uitext.gameObject.SetActive(true);
                     objctrl.isClicked = false;
                 }
             }
@@ -74,6 +75,7 @@ public class ExamineObj : MonoBehaviour
         {
             Object objctrl = other.GetComponent<Object>();
             _uitext.text = "";
+            _uitext.gameObject.SetActive(false);
             objctrl.outline.SetColor("MainColor", Color.white * 0);
         }
     }

@@ -266,12 +266,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3707195234855920765, guid: feee2e050cafee24d865615f0d5987fc, type: 3}
-      propertyPath: m_Text
-      value: '
-
-'
-      objectReference: {fileID: 0}
     - target: {fileID: 3707195236160269825, guid: feee2e050cafee24d865615f0d5987fc, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -576,7 +570,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1936271588979694483, guid: 5e1ab74a37295b945b0fba86e85a80b2, type: 3}
       propertyPath: m_Name
-      value: Object
+      value: STUD
       objectReference: {fileID: 0}
     - target: {fileID: 1936271588979694573, guid: 5e1ab74a37295b945b0fba86e85a80b2, type: 3}
       propertyPath: m_Size.x
@@ -614,6 +608,13 @@ PrefabInstance:
       propertyPath: outline
       value: 
       objectReference: {fileID: 2100000, guid: 2b20e1919cb698745b7fb1aedb221307, type: 2}
+    - target: {fileID: 1936271588979694575, guid: 5e1ab74a37295b945b0fba86e85a80b2, type: 3}
+      propertyPath: Description
+      value: "\u201CVasiliy L.\u201D That\u2019s my name. I was such a douchebag
+        during student years. At the time I didn\u2019t know the difference between
+        good and bad. And because of that\u2026.Ahhhhh\u2026 *unbearable pain covered
+        your body*"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e1ab74a37295b945b0fba86e85a80b2, type: 3}
 --- !u!1 &1533912795
