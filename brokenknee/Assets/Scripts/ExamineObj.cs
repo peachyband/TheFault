@@ -56,6 +56,7 @@ public class ExamineObj : MonoBehaviour
                 Debug.Log("unblocked");
                 if (objctrl.isClicked)
                 {
+                    if (other.GetComponent<LightSwitch>()) other.GetComponent<LightSwitch>().SwitchL();
                     _uitext.text = objctrl.Description;
                     _uitext.gameObject.SetActive(true);
                     objctrl.isClicked = false;

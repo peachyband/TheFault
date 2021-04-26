@@ -1,10 +1,7 @@
 fileFormatVersion: 2
-guid: 9a57c3fca98a5fe4f84789b83cc9fb69
+guid: dab7645bacf337d40b48edfce4003128
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 2256216068811552283
-    second: Koshel_ne_pustoy_0
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -44,7 +41,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -140,28 +137,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Koshel_ne_pustoy_0
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 32
-        width: 76
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b167a068f80bf4f10800000000000000
-      internalID: 2256216068811552283
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
