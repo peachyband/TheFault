@@ -66,6 +66,8 @@ public class ExamineObj : MonoBehaviour
                     objctrl.isClicked = false;
                     objctrl.isReaded = true;
                     if (objctrl.isMainObject) _lvlctrl.LoadNextLevel();
+                        
+       
                 }
             }
             else if (objctrl.isMousedExit)

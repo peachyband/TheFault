@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
 
     [SerializeField]
     private Animator animctrl;
+    public bool isMoving = true;
 
     void Start()
     {
@@ -27,7 +28,8 @@ public class Player : MonoBehaviour
 
     void FixedUpdate()
     {
-        CalculateMovement();
+        if (isMoving)
+            CalculateMovement();
     }
 
     void CalculateMovement()
