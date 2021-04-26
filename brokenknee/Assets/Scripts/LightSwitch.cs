@@ -11,6 +11,8 @@ public class LightSwitch : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        flashL.SetActive(true);
+        roomL.SetActive(false);
         foreach (GameObject obj in hiddenObjs)
         {
             obj.SetActive(false);
