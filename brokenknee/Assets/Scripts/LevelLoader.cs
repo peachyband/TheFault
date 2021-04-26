@@ -7,13 +7,22 @@ public class LevelLoader : MonoBehaviour
 {
     public Animator transition;
     public float transitionTime;
+    public bool menu = false;
 
+
+    private void Start()
+    {
+       if (menu) transitionTime = 0;
+    }
     public void LoadNextLevel()
     {
-        GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().isMoving = false;
-        GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>().SetBool("Moving", false);
-        GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>().freezeRotation = true;
-        GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        if (!menu)
+        {
+            GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().isMoving = false;
+            GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>().SetBool("Moving", false);
+            GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>().freezeRotation = true;
+            GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        }
        
         StartCoroutine(LoadLevel(EditorSceneManager.GetActiveScene().buildIndex + 1));
     }
