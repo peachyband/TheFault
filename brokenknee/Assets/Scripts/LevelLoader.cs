@@ -6,7 +6,7 @@ using UnityEditor.SceneManagement;
 public class LevelLoader : MonoBehaviour
 {
     public Animator transition;
-    public float transitionTime = 1f;
+    public float transitionTime;
 
     public void LoadNextLevel()
     {
@@ -15,8 +15,8 @@ public class LevelLoader : MonoBehaviour
 
     IEnumerator LoadLevel(int levelindx)
     {
-        transition.SetTrigger("Start");
         yield return new WaitForSeconds(transitionTime);
+        transition.SetTrigger("Start");
         EditorSceneManager.LoadScene(levelindx);
     }
 }
