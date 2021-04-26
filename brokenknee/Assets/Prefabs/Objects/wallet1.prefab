@@ -50,10 +50,12 @@ MonoBehaviour:
     when it comes to money. Sometimes I couldn\u2019t even afford food for weeks.
     That played a decisive role that night ..."
   outline: {fileID: 2100000, guid: f2d5d6c9321fc29469dd1b6b6b3b4e2c, type: 2}
-  thick: 7
+  thick: 100
   isMoused: 0
   isMousedExit: 0
   isClicked: 0
+  isMainObject: 1
+  isReaded: 0
 --- !u!212 &8900821924910101043
 SpriteRenderer:
   m_ObjectHideFlags: 0

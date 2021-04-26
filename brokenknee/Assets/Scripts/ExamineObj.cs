@@ -8,6 +8,7 @@ public class ExamineObj : MonoBehaviour
 {
     public int layer;
     public float radius;
+    public GameObject indicator;
     public Collider2D[] cols;
 
     public LevelLoader _lvlctrl;
@@ -52,6 +53,7 @@ public class ExamineObj : MonoBehaviour
         if (other.transform.tag == "Object")
         {
             Object objctrl = other.GetComponent<Object>();
+            if (!objctrl.isReaded) indicator.SetActive(true);
             if (objctrl.isMoused)
             {
                 objctrl.outline.SetColor("MainColor", Color.white * Mathf.Lerp(0, objctrl.thick, 1));
@@ -62,6 +64,7 @@ public class ExamineObj : MonoBehaviour
                     _uitext.text = objctrl.Description;
                     _uitext.gameObject.SetActive(true);
                     objctrl.isClicked = false;
+                    objctrl.isReaded = true;
                     if (objctrl.isMainObject) _lvlctrl.LoadNextLevel();
                 }
             }
@@ -77,6 +80,7 @@ public class ExamineObj : MonoBehaviour
     {
         if (other.transform.tag == "Object")
         {
+            indicator.SetActive(false);
             Object objctrl = other.GetComponent<Object>();
             _uitext.text = "";
             _uitext.gameObject.SetActive(false);
