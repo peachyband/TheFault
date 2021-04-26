@@ -17,6 +17,14 @@ public class Player : MonoBehaviour
         rigid = GetComponent<Rigidbody2D>();
     }
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            Time.timeScale = 0;
+        }
+    }
+
     void FixedUpdate()
     {
         CalculateMovement();
@@ -43,7 +51,7 @@ public class Player : MonoBehaviour
         rigid.velocity = new Vector2(x, y) * speed * Time.fixedDeltaTime;
     }
 
-    private void OnTriggerStay2D(Collider2D other)
+   /* private void OnTriggerStay2D(Collider2D other)
     {
         if (other.transform.tag == "Object")
         {
@@ -74,5 +82,5 @@ public class Player : MonoBehaviour
             _uitext.text = "";
             objctrl.outline.SetColor("MainColor", Color.white * 0);
         }
-    }
+    }*/
 }
