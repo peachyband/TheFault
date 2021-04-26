@@ -259,6 +259,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1936271588979694575, guid: 5e1ab74a37295b945b0fba86e85a80b2, type: 3}
+      propertyPath: thick
+      value: 50
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e1ab74a37295b945b0fba86e85a80b2, type: 3}
 --- !u!1 &653260035
@@ -650,7 +654,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1936271588979694575, guid: 5e1ab74a37295b945b0fba86e85a80b2, type: 3}
       propertyPath: thick
-      value: 7
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1936271588979694575, guid: 5e1ab74a37295b945b0fba86e85a80b2, type: 3}
       propertyPath: outline
