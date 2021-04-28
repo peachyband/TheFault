@@ -44,7 +44,7 @@ public class Player : MonoBehaviour
         else
         {
             animctrl.SetBool("Moving", true);
-            animctrl.SetFloat("Speed", speed/30);
+            animctrl.SetFloat("Speed", speed/40);
         }
         
         var dir = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);

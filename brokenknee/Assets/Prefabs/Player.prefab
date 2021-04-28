@@ -165,7 +165,7 @@ Transform:
   m_GameObject: {fileID: 2047237190795049036}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.1, z: 0}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_Children: []
   m_Father: {fileID: 3133990064600859840}
   m_RootOrder: 2
@@ -344,6 +344,7 @@ MonoBehaviour:
   speed: 100
   _uitext: {fileID: 0}
   animctrl: {fileID: 3133990064600859843}
+  isMoving: 1
 --- !u!95 &3133990064600859843
 Animator:
   serializedVersion: 3

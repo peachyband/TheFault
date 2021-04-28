@@ -47,7 +47,7 @@ PlayerSettings:
   - logo: {fileID: 21300000, guid: 0e02fd9c80ada6247b49dd97918b4433, type: 3}
     duration: 2
   - logo: {fileID: 21300000, guid: bf3002c3140bdaa4a94155d07ba7852d, type: 3}
-    duration: 2
+    duration: 3
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1920
@@ -154,7 +154,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Standalone: com.DefaultCompany.brokenknee
+    Standalone: com.EPeachyBand.thefault
   buildNumber:
     Standalone: 0
     iPhone: 0

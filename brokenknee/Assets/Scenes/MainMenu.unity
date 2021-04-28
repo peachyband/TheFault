@@ -684,13 +684,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1430287241}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2120234110}
+        m_TargetAssemblyTypeName: LevelLoader, Assembly-CSharp
+        m_MethodName: Quit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1456,11 +1456,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14df150973e70b6459ce5e4f706f1cad, type: 3}
---- !u!1 &1430287241 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1617563419298644259, guid: 14df150973e70b6459ce5e4f706f1cad, type: 3}
-  m_PrefabInstance: {fileID: 1430287240}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1595800588
 GameObject:
   m_ObjectHideFlags: 0
@@ -1651,7 +1646,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1236587479128949746, guid: 14df150973e70b6459ce5e4f706f1cad, type: 3}
   m_PrefabInstance: {fileID: 1430287240}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1430287241}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ee510284da7694a41ab6ff9eb830465d, type: 3}

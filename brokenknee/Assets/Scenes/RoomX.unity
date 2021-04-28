@@ -464,9 +464,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb970d7715e8402479bb7f207ebe09c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Description: WAKE UP.....
+  Description: "\u041F\u0420\u041E\u0421\u041D\u0418\u0421\u042C,,,"
   outline: {fileID: 2100000, guid: 07f73f47f729b1249840c77fc5ca973b, type: 2}
-  thick: 100
+  thick: 150
   isMoused: 0
   isMousedExit: 0
   isClicked: 0
