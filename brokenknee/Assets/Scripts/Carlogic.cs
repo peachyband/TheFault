@@ -6,15 +6,16 @@ public class Carlogic : MonoBehaviour
 {
     public Animator anctrl;
     public AnimatorStateInfo info;
-    public bool isRunning = false;
+    public float cooldownTime = 30.0f;
     void Start()
     {
-        info = anctrl.GetCurrentAnimatorStateInfo(0);
+        //info = anctrl.GetCurrentAnimatorStateInfo(0);
+        anctrl.Play("Car_grey", 0, 0.0f);
     }
 
     void Update()
     {
-        StartCoroutine(playanim());
+        /*StartCoroutine(playanim());
         if (isRunning)
         {
             anctrl.enabled = true;
@@ -23,13 +24,13 @@ public class Carlogic : MonoBehaviour
         else
         {
             anctrl.enabled = false;
-        }
+        }*/
+        
     }
 
     public IEnumerator playanim()
     {
-        isRunning = false;
-        yield return new WaitForSeconds(5);
-        isRunning = true;
+        yield return new WaitForSeconds(cooldownTime);
+        anctrl.Play("Car_grey", 0, 0.0f);
     }
 }

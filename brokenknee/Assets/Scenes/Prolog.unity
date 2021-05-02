@@ -1033,7 +1033,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anctrl: {fileID: 1728775269}
-  isRunning: 0
+  cooldownTime: 30
 --- !u!212 &1728775271
 SpriteRenderer:
   m_ObjectHideFlags: 0
