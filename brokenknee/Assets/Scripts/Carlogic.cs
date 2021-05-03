@@ -5,32 +5,15 @@ using UnityEngine;
 public class Carlogic : MonoBehaviour
 {
     public Animator anctrl;
-    public AnimatorStateInfo info;
-    public float cooldownTime = 30.0f;
+    public float cooldownTime;
     void Start()
     {
-        //info = anctrl.GetCurrentAnimatorStateInfo(0);
-        anctrl.Play("Car_grey", 0, 0.0f);
-    }
-
-    void Update()
-    {
-        /*StartCoroutine(playanim());
-        if (isRunning)
-        {
-            anctrl.enabled = true;
-            anctrl.Play("Carg", 0, 1f);
-        }
-        else
-        {
-            anctrl.enabled = false;
-        }*/
-        
+        anctrl.Play(name, 0, 0.0f);
     }
 
     public IEnumerator playanim()
     {
         yield return new WaitForSeconds(cooldownTime);
-        anctrl.Play("Car_grey", 0, 0.0f);
+        anctrl.Play(name, 0, 0.0f);
     }
 }
