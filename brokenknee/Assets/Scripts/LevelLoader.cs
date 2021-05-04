@@ -8,8 +8,10 @@ public class LevelLoader : MonoBehaviour
 {
     public Animator transition;
     public float transitionTime;
+    public float scenetime;
     public bool menu = false;
     public bool tutorial = false;
+    public bool prolog = false;
     public int dialogCount;
     [TextArea]
     public string[] tut;
@@ -25,6 +27,11 @@ public class LevelLoader : MonoBehaviour
         {
             _uitext.gameObject.SetActive(true);
             _uitext.text = tut[dialogCount];
+        }
+
+        if (prolog)
+        {
+            StartCoroutine(WaitForChange(scenetime));
         }
     }
 
@@ -48,11 +55,12 @@ public class LevelLoader : MonoBehaviour
         {
             Quit();
         }
+        
     }
 
     public void LoadNextLevel()
     {
-        if (!menu)
+        if (!menu && !prolog)
         {
             GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().isMoving = false;
             GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>().SetBool("Moving", false);
@@ -60,6 +68,12 @@ public class LevelLoader : MonoBehaviour
             GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         }
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+    }
+
+    IEnumerator WaitForChange(float waittime)
+    {
+        yield return new WaitForSeconds(waittime);
+        LoadNextLevel();
     }
 
     IEnumerator LoadLevel(int levelindx)
