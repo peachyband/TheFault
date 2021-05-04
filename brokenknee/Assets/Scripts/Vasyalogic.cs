@@ -4,14 +4,23 @@ using UnityEngine;
 
 public class Vasyalogic : MonoBehaviour
 {
+    public AudioSource audcrtl;
     public Animator anctrl;
     public Animator profctrl;
     public float cooldownTime;
     public float talkcooldownTime;
+    public int currentscene;
 
     void Start()
     {
-        StartCoroutine(playanim());
+        if (currentscene == 0)
+        {
+            StartCoroutine(playanim());
+        }
+        else if (currentscene == 1)
+        {
+            anctrl.Play("Vasya_lasttalk", 0, 0.0f);
+        }
     }
 
     public IEnumerator playanim()
@@ -30,6 +39,7 @@ public class Vasyalogic : MonoBehaviour
     {
         anctrl.SetBool("Upped", true);
         anctrl.Play("Vasya_idle", 0, 0.0f);
+        audcrtl.Pause();
         profctrl.SetBool("Stared", true);
         profctrl.Play("Prof_staring", 0, 0.0f);
         StartCoroutine(playtalkanim());
