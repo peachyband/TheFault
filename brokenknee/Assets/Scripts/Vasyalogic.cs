@@ -16,13 +16,14 @@ public class Vasyalogic : MonoBehaviour
 
     void Start()
     {
+        aus = Camera.main.GetComponent<AudioLoader>();
         if (currentscene == 0)
         {
             StartCoroutine(playanim());
         }
         else if (currentscene == 1)
         {
-            aus = Camera.main.GetComponent<AudioLoader>();
+            //aus = Camera.main.GetComponent<AudioLoader>();
             anctrl.Play("Vasya_lasttalk", 0, 0.0f);
         }
     }
@@ -30,7 +31,10 @@ public class Vasyalogic : MonoBehaviour
     private void Update()
     {
         if ((!tmp) && (aus.index > triggerIndex) && (currentscene == 1))
+        {
+            tmp = true;
             StartCoroutine("Faint");
+        }
     }
     public IEnumerator Faint() 
     {
