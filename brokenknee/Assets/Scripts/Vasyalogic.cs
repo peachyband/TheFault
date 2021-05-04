@@ -10,6 +10,9 @@ public class Vasyalogic : MonoBehaviour
     public float cooldownTime;
     public float talkcooldownTime;
     public int currentscene;
+    private AudioLoader aus;
+    private bool tmp = false;
+    public int triggerIndex = 0;
 
     void Start()
     {
@@ -19,8 +22,20 @@ public class Vasyalogic : MonoBehaviour
         }
         else if (currentscene == 1)
         {
+            aus = Camera.main.GetComponent<AudioLoader>();
             anctrl.Play("Vasya_lasttalk", 0, 0.0f);
         }
+    }
+
+    private void Update()
+    {
+        if ((!tmp) && (aus.index > triggerIndex) && (currentscene == 1))
+            StartCoroutine("Faint");
+    }
+    public IEnumerator Faint() 
+    {
+        yield return new WaitForSeconds(aus.clips[triggerIndex].length);
+        anctrl.SetBool("Upped", true);
     }
 
     public IEnumerator playanim()
