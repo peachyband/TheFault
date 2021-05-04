@@ -53,6 +53,10 @@ public class Vasyalogic : MonoBehaviour
         yield return new WaitForSeconds(talkcooldownTime);
         anctrl.Play("Vasya_talk", 0, 0.0f);
     }
+    public void kostil() 
+    {
+        anctrl.SetBool("Pill", false);
+    }
 
     public void MakeUp()
     {
