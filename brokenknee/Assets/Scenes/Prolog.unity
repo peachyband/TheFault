@@ -1893,7 +1893,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.2
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -2375,6 +2375,7 @@ MonoBehaviour:
   anctrl: {fileID: 1285236945}
   cooldownTime: 0
   currentscene: 0
+  triggerIndex: 0
 --- !u!82 &1285236949
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2542,7 +2543,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 765b03d15c875b047946abf20c7e04d3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
