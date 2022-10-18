@@ -75,7 +75,7 @@ TextureImporter:
       213: 3434041912184500001
     second: Chelic_stoit_23
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -96,6 +96,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -106,7 +107,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: 2
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 0
@@ -134,6 +135,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -197,6 +199,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
@@ -724,6 +738,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Chelic_stoit_2: -3091975850050686048
+      Chelic_stoit_23: 3434041912184500001
+      Chelic_stoit_22: -7716722421914573573
+      Chelic_stoit_0: -22670034372607422
+      Chelic_stoit_1: 7096711137155059573
+      Chelic_stoit_17: 2635230306035908150
+      Chelic_stoit_16: -4296270374423832851
+      Chelic_stoit_13: -2579060345806066151
+      Chelic_stoit_4: 546089062203586402
+      Chelic_stoit_15: -273546070659782130
+      Chelic_stoit_21: 307698538891603881
+      Chelic_stoit_3: -3770972435085107872
+      Chelic_stoit_10: -2431316781712033070
+      Chelic_stoit_6: 7637345474361423050
+      Chelic_stoit_11: -7559817833311665953
+      Chelic_stoit_18: 5485556660232747327
+      Chelic_stoit_9: -1898980076754784094
+      Chelic_stoit_12: -4148239251731198614
+      Chelic_stoit_20: 8269799791819108661
+      Chelic_stoit_5: 3565897226523494179
+      Chelic_stoit_14: -3886623069464889948
+      Chelic_stoit_8: 4248661045463233943
+      Chelic_stoit_19: 8888255139214966763
+      Chelic_stoit_7: -7227161370650040883
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
